@@ -1,7 +1,8 @@
-import './App.css';
-import Header from './Header';
-import Nav from './Nav';
-import Footer from './Footer';
+import "./App.css";
+import Header from "./Header";
+import Nav from "./Nav";
+import Footer from "./Footer";
+import Main from "./Main";
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
         <Header />
         <Nav />
       </div>
-      <main />
+      <Main />
       <Footer />
     </div>
   );
