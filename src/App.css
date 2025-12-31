@@ -189,4 +189,8 @@ footer nav ul {
   max-width: 200px;
   gap: 20px;
 }
+.booking-form input[type="submit"]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
 

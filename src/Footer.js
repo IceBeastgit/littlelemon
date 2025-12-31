@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <img src={logo} alt="Little Lemon logo" />
 
-      <Nav/>
+      <Nav aria-label="Footer Navigation"/>
 
       <section>
         <h4>Contact</h4>
