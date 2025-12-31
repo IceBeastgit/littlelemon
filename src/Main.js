@@ -28,7 +28,7 @@ function Main() {
     const success = submitAPI(formData);
     console.log("submitAPI result:", success);
     if (success) {
-      navigate("/confirmed");
+      navigate("/confirmed" , { state: formData });
     }
   };
   return (

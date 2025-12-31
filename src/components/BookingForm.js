@@ -67,6 +67,7 @@ function BookingForm({ availableTimes = [], dispatch, submitForm  }) {
         min="1"
         max="10"
         required
+        aria-label="Number of guests"
         value={guests}
         onChange={(e) => setGuests(e.target.value)}
       />
